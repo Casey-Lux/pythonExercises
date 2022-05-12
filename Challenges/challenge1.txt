@@ -1,0 +1,2 @@
+Create a program that count the number of an specific letter, that you choose,
+in a phrase that you give to the program.
