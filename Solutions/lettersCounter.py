@@ -1,16 +1,20 @@
 # Variables definition
-letter = 'a'
-phrase = "example"
-counter = 0
+letter = str('a')
+phrase = str("example")
+counter = int(0)
 
 # Data enter
 
 print("Hello, this is a program for count letters in a phrase.")
 print("Please, enter a phrase:")
-phrase = input(">> ")
+phrase = str(input(">> "))
 
 print("Ok, now please enter the letter that you want to count in the phrase:")
-letter = input(">> ")
+letter = str(input(">> "))
+
+# Solving upperCase
+
+letter = letter.lower();
 
 # Proces
 
